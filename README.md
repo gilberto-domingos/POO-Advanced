@@ -42,45 +42,11 @@ Joe Marini
 *** 
 <h1 align="center">Desafio ! </h1>
 
-### * No meio do curso Joe Marini faz um desafio, conforme consta nas imagens após o texto :
-  Desafio: Hierarquia da Classe Employee
-  Este desafio propõe a construção de uma hierarquia de classes em C# para representar dois tipos de funcionários: horistas e assalariados, utilizando conceitos de orientação a objetos e boas práticas modernas.
+### * No meio do curso Joe Marini faz um desafio, conforme consta nas imagens :
 
-Requisitos Comuns (Classe Base: Employee)
-Todos os funcionários devem possuir os seguintes membros:
+ Não pode usar parâmetros no construtor !
 
-Propriedade ID (obrigatória, do tipo int)
-
-Propriedade Department (obrigatória, do tipo string)
-
-Propriedade FullName (obrigatória, do tipo string)
-
-Método AdjustPay(decimal percentage): ajusta o pagamento do funcionário com base em uma porcentagem
-
-Funcionário Horista (HourlyEmployee)
-Deve conter a seguinte propriedade específica:
-
-Propriedade PayRate (decimal): valor da remuneração por hora trabalhada
-
-Funcionário Assalariado (SalariedEmployee)
-Deve conter a seguinte propriedade específica:
-
-Propriedade Salary (decimal): valor fixo do salário (mensal ou anual)
-
-Regras de Implementação
-Utilizar herança para separar os atributos comuns dos atributos específicos
-
-Utilizar propriedades automáticas (auto-properties) para representar os campos de dados
-
-Utilizar inicialização por objeto (object initializers) ao invés de construtores com parâmetros
-
-A propriedade ID deve ser obrigatória (required) e somente leitura (init only)
-
-As propriedades Department e FullName devem ser obrigatórias (required) e modificáveis (set)
-
-O método AdjustPay() deve aumentar o pagamento do funcionário com base na porcentagem fornecida
-- imagens orginais do desafio proposto no curso:
-
+### Leia o desafio nas imagens :
 
   <img src="Assets/desafio.png" width="800" alt="desafio do projeto"><br/>
   <img src="Assets/desafio-comp.png" width="800" alt="desafio do projeto">
@@ -95,7 +61,9 @@ O método AdjustPay() deve aumentar o pagamento do funcionário com base na porc
   <img src="Assets/badges.png" width="300" alt="Logo do Projeto">
 
 <h2 align="center">Minha conclusão sobre o curso </h2>
-- Interessante percerber pelos seus hábitos de codificar que os veteranos vem de uma era onde tudo era diferente. Esses caras passaram por uma época onde ainda nem existia POO(Programação Orientada a Objetos). "Conhecimento muito expandido e abrangente"
+- Interessante percerber pelos seus hábitos de codificar que os veteranos vem de uma era onde tudo era diferente. Esses caras passaram por uma época onde ainda nem existia POO(Programação Orientada a Objetos). "Conhecimento muito expandido e abrangente", obviamente você precisa ser avançado ter um olho clínico para sempre entender poucas palavras. Esses caras não dão muita trella não, você é que tem que entender muito com pouco.
 
 Siga o perfil para receber mais curiosidades :
 https://github.com/gilberto-domingos
+
+<img src="Assets/certificate.png" width="1000" alt="Logo do Projeto">
